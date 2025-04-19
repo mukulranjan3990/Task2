@@ -46,7 +46,7 @@ document.getElementById('registrationForm').addEventListener('submit', function 
   
     if (valid) {
       alert('Form submitted successfully!');
-        window.location.assign('todo/index.html');
+        window.location.assign('todo.html');
     
     }
   });
