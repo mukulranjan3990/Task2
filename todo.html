@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-DO List</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <!-- Hamburger Icon -->
+        <div class="menu-icon" id="menuIcon">
+            <div class="bar top"></div>
+            <div class="bar middle"></div>
+            <div class="bar bottom"></div>
+        </div>
+
+        <!-- Side Navigation -->
+        <nav class="sidebar" id="sidebar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="../index.html">Sign-Up</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- To-Do List Section  -->
+    <div class="todo-container" id="todo">
+        <h2>To-Do List</h2>
+        <input type="text" id="taskInput" placeholder="Enter a new task" />
+        <button type="submit" id="addTaskBtn">Add Task</button>
+        <ul id="taskList"></ul>
+    </div>
+
+</body>
+
+</html>
