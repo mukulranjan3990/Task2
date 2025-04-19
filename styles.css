@@ -96,44 +96,7 @@ header{
 }
 /* desigm box*/
 
-@media (min-width: 1600px) {
-      .disinebox{
-        height:50px;
-        width: 50px;
-        
-        background: url('image/firee.png') no-repeat center center/cover;
-        background-color: blueviolet;
-        border-radius: 7px;
-        margin: 20px;
-      }
-
-  
-.disinebox{
-  animation-duration: 3s;
-  animation-name:sliding-vertically;
-  animation-direction: alternate;
-  animation-iteration-count: infinite;
-}
-
-.disinebox:hover{
-  animation-duration:none;
-  animation-name:none;
-  animation-direction:none;
-  animation-iteration-count: none;
-}
-
-@keyframes sliding-vertically{
-  from {
-    translate: 0px 0px;
-    
-  }
-
-  to {
-    translate: 0 110px;
-    
-  }
-}
-}
+/* its removed below code */
   .form-container{
     background: white;
     
